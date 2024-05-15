@@ -24,7 +24,7 @@ RUN cd /app && \
     ./gradlew assembleDebug
 
 # Expose the port for the Android application
-EXPOSE 8080
+EXPOSE 6000
 
 # Start the Android application
 CMD ["./gradlew", "installDebug"]
